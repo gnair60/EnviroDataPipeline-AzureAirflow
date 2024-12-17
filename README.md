@@ -46,6 +46,7 @@ Graphs and visualizations were created to illustrate each component of the lifec
 The project generated visualizations to illustrate trends:
 
 - Line Charts: Yearly temperature and precipitation trends (2018–2024).
+![Alt text](images/example.png)
 - Scatter Plots: Precipitation patterns across months and years.
 - Histograms and Pie Charts: Distribution of weather types.
 
