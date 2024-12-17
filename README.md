@@ -43,6 +43,11 @@ The workflow consists of four main stages:
 
 ## Project Visualization
 Graphs and visualizations were created to illustrate each component of the lifecycle and to demonstrate how data pipelines were organized from source systems to destination systems.
+The project generated visualizations to illustrate trends:
+
+- Line Charts: Yearly temperature and precipitation trends (2018–2024).
+- Scatter Plots: Precipitation patterns across months and years.
+- Histograms and Pie Charts: Distribution of weather types.
 
 ## Project Retrospective Part I
 ### Key Insights
@@ -56,7 +61,7 @@ Graphs and visualizations were created to illustrate each component of the lifec
 - Naive Bayes: Accuracy – 84%
 - Decision Tree: Accuracy – 100% (noted to be overfitting with limited data)
 
-### Lessons Learned
+## Lessons Learned
 - Prior knowledge of Azure services would have streamlined the project.
 - A streaming solution might have been more effective for real-time data analysis.
 
