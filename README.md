@@ -48,7 +48,9 @@ The project generated visualizations to illustrate trends:
 - Line Charts: Yearly temperature and precipitation trends (2018–2024).
 ![Alt text](Line.png)
 - Scatter Plots: Precipitation patterns across months and years.
+  ![Alt text](ScatterPlot.png)
 - Histograms and Pie Charts: Distribution of weather types.
+  ![Alt text](Weather-Types.png)
 
 ## Project Retrospective Part I
 ### Key Insights
