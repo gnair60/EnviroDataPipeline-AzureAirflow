@@ -6,16 +6,16 @@
 In an era where environmental changes are increasingly unpredictable, this project aims to construct a data pipeline to process environmental sensor data, enabling advanced analytics and predictive modeling. By analyzing this data, we can identify trends and patterns that contribute to more informed decision-making in environmental policy and management.
 
 ### Problem Statement
-Analyzing environmental data to provide actionable insights into changing environmental conditions and predicting future weather based on trained machine learning models.
+The project addresses the need to analyze environmental data and predict weather conditions using machine learning models. By leveraging historical and real-time data, the pipeline forecasts future weather trends and identifies patterns in environmental changes.
 
 ### Motivation
-The project focuses on addressing the urgent need to adapt to and mitigate the effects of environmental changes using the growing availability of environmental data and advancements in cloud computing and machine learning.
+With unpredictable environmental changes, the project focuses on harnessing advancements in cloud computing and machine learning to analyze environmental data and provide proactive insights.
 
 ### Objectives
 The primary goal is to demonstrate a robust data handling and analysis framework capable of:
-- Efficiently extracting and storing vast amounts of sensor data.
-- Transforming raw data for advanced analysis and machine learning.
-- Providing both basic analytics and complex predictive insights through visualizations and model deployment.
+- Efficiently extract, transform, and store sensor data for analysis.
+- Build a scalable pipeline for data processing and ML deployment.
+- Generate visualizations and predictive insights to analyze environmental patterns.
 
 ### Data Engineering Goals
 - **Efficient Data Ingestion and Storage**: Extract data from sources like GitHub and APIs, storing it in Azure Data Lake.
@@ -31,8 +31,8 @@ The primary goal is to demonstrate a robust data handling and analysis framework
 - **Visual Crossing Weather API**: Tests the machine learning model and predicts future weather.
 
 ## Data Source
-- **Primary Data Source**: Visual Crossing Weather API and GitHub [DATA](https://github.com/sanket101-git/Local-Climatological-Data/raw/main/Sensor_Data.zip)(historical weather data from 2018 to 2024).
-- **GitHub Data Link**: [Sensor Data](https://github.com/sanket101-git/Local-Climatological-Data/raw/main/Sensor_Data.zip)
+- **Primary Data Source**: Visual Crossing Weather API and GitHub [DATA](https://github.com/gnair60/EnviroDataPipeline-AzureAirflow/blob/main/Data.zip)(historical weather data from 2018 to 2024).
+- **GitHub Data Link**: [Sensor Data](https://github.com/gnair60/EnviroDataPipeline-AzureAirflow/blob/main/Sensor_Data.zip)
 
 ## Workflow and Architecture
 The workflow consists of four main stages:
@@ -50,6 +50,12 @@ Graphs and visualizations were created to illustrate each component of the lifec
 - Knowledge of Azure cloud services like Synapse Analytics and Databricks would have improved project planning and execution.
 - Significant hurdles included handling datasets with many null values and managing API limitations.
 
+## Machine Learning Models
+### Three machine learning algorithms were implemented and tested in Databricks:
+- K-Nearest Neighbors (KNN): Accuracy – 84%
+- Naive Bayes: Accuracy – 84%
+- Decision Tree: Accuracy – 100% (noted to be overfitting with limited data)
+
 ### Lessons Learned
 - Prior knowledge of Azure services would have streamlined the project.
 - A streaming solution might have been more effective for real-time data analysis.
@@ -59,8 +65,6 @@ Graphs and visualizations were created to illustrate each component of the lifec
 - Gaining hands-on experience with cloud platforms and advanced machine learning algorithms would be beneficial.
 - Key takeaways included understanding the importance of cloud platforms and ETL tools in managing data efficiently.
 
-### Additional Resources
-- Requesting additional funding for specialized team members and technical tools (like DOMO and Alteryx) to improve ETL processes and data management.
 
 ## Conclusion
 The project demonstrated that our machine learning model’s weather predictions align with predictions from reliable weather forecasting platforms, showcasing the potential of our data analysis and machine learning approach.
