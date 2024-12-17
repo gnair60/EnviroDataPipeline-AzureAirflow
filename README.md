@@ -50,7 +50,7 @@ The project generated visualizations to illustrate trends:
 - Scatter Plots: Precipitation patterns across months and years.
   ![Alt text](ScatterPlot.png)
 - Histograms and Pie Charts: Distribution of weather types.
-  ![Alt text](Weather-Types.png)
+  ![Alt text](https://github.com/gnair60/EnviroDataPipeline-AzureAirflow/blob/main/Weather%20Types.png)
 
 ## Project Retrospective Part I
 ### Key Insights
